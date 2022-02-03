@@ -1,0 +1,28 @@
+---
+title: "courR1EXO"
+author: "Adama"
+date: "03/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##EXO1
+créer le vecteur nommé mon_vecteur qui contient les éléments 1,2,0.5 et "mon_nom"
+quelle est le type de mon_vecteur? pourquoi il est de ce type?
+créer un vecteur nommé logique qui contient les éléments suivants: TRUE, FALSE, TRUE
+exécutervle commande sum(logique). y a t-il une explication à ce résultat?
+qu'appelle t-on règle de coersion en R?
+```{r}
+nom_vecteur=c(1,2,0.5,"mon_nom")
+#type de mon vecteur
+
+typeof(nom_vecteur)
+nom_vecteur
+##on crée un vecteur nommé logique qui contient les éléments suivants TRUE FALSE TRUE
+logique=c(TRUE, FALSE, TRUE)
+logique
+sum(logique)
+```
